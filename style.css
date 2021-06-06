@@ -1,0 +1,223 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-style: 62.5%;
+  text-decoration: none;
+  font-family: "Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+header {
+  background-color: black;
+  width: 100%;
+  background-attachment: fixed;
+}
+nav {
+  display: flex;
+}
+nav a {
+  color: white;
+  font-size: larger;
+  padding: 19px 15px;
+  align-items: center;
+}
+.right-side {
+  margin-left: auto;
+}
+.g {
+  background-color: black;
+  color: red;
+}
+.g:hover {
+  background-color: black;
+  color: red;
+}
+nav a:hover {
+  background-color: rgb(190, 20, 20);
+  color: rgb(50, 226, 173);
+  border-radius: 20px;
+  transition: 0.3s;
+  background-attachment: fixed;
+}
+
+@media screen and (max-width: 400px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+  }
+  .right-side {
+    margin-left: 0;
+  }
+}
+.A {
+  min-height: 120vh;
+  background-image: url(./pics/emerson-peters-DOZlw17VjF4-unsplash.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: bottom center;
+  background-color: rgb(151, 41, 41);
+}
+.B h1,
+h2 {
+  color: rgb(231, 231, 231);
+}
+.B h1 {
+  font-weight: bold;
+  font-size: xx-large;
+  padding-top: 9px;
+}
+.B h2 {
+  padding-top: 19px;
+}
+.C {
+  min-height: 110vh;
+  background-color: black;
+}
+.D {
+  display: flex;
+  flex-direction: row;
+}
+.D img {
+  height: 35rem;
+  padding: 3rem 5rem;
+}
+
+.E h1 {
+  color: red;
+  padding-top: 3rem;
+  height: 1rem;
+}
+.E p {
+  color: white;
+  padding: 2rem 0.1rem;
+}
+
+.E h2 {
+  padding-top: 2rem;
+  width: 23rem;
+}
+.right {
+  margin-left: auto;
+  margin-top: -15rem;
+}
+.r {
+  margin-left: auto;
+  margin-top: 0rem;
+}
+@media screen and (max-width: 1192px) {
+  .D {
+    display: flex;
+    flex-direction: column;
+  }
+}
+.C button {
+  color: rgb(250, 250, 250);
+  background-color: red;
+  height: 2rem;
+  width: 8rem;
+  border-radius: 10rem;
+  border: none;
+  margin-bottom: 2rem;
+}
+.C button:hover {
+  background-color: rgb(8, 8, 8);
+  color: brown;
+  cursor: grab;
+}
+.Q {
+  min-height: 92vh;
+  background-color: black;
+}
+.Q h1 {
+  color: white;
+  padding: 2rem 5rem;
+}
+.first {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding-top: 2px;
+  padding-bottom: 4rem;
+  color: white;
+}
+.second {
+  background-color: rgb(80, 80, 80);
+  height: 23rem;
+  border-radius: 7px;
+  width: 15rem;
+  text-align: center;
+}
+
+.third {
+  background-color: rgb(80, 80, 80);
+  height: 21rem;
+  border-radius: 7px;
+  width: 15rem;
+  text-align: center;
+}
+.fourth {
+  background-color: rgb(80, 80, 80);
+  height: 23rem;
+  border-radius: 7px;
+  width: 15rem;
+  text-align: center;
+}
+.M {
+  min-height: 90vh;
+  background-color: rgb(0, 0, 0);
+  color: rgb(240, 240, 240);
+}
+
+.N {
+  display: flex;
+  justify-content: center;
+}
+.i {
+  padding-top: 1rem;
+  font-size: 2rem;
+}
+.N form {
+  padding: 3rem;
+  margin-top: 2rem;
+}
+.N form input {
+  border: none;
+  border-radius: 19px;
+  height: 3rem;
+  width: 19rem;
+  background-color: #302d2d;
+  color: rgb(199, 199, 199);
+}
+
+form ::placeholder {
+  margin-left: 4px;
+  margin-bottom: 2px;
+  font-size: 1rem;
+  color: rgb(112, 112, 112);
+}
+label {
+  font-size: 1.8rem;
+}
+.last {
+  margin-top: 7rem;
+}
+.M a button {
+  margin-bottom: 3rem;
+  height: 3rem;
+  width: 7rem;
+  background-color: red;
+  color: rgb(255, 255, 255);
+  border-radius: 20px;
+  border: none;
+}
+.M button :hover {
+  background-color: black;
+  color: red;
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  color: aliceblue;
+  width: 100%;
+  height: 4rem;
+}
